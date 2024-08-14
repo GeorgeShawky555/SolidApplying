@@ -1,0 +1,9 @@
+Interfaces: IEmployeeActions and IReportActions define actions for employees and reports, respectively.
+Classes:
+Employee: Implements IEmployeeActions with methods for hiring, firing, printing details, calculating pay, and promoting.
+Manager: Inherits from Employee and adds methods for managing a team.
+Report: Implements IReportActions with general report actions.
+PDFReport: Inherits from Report and overrides the report generation method.
+PayrollSystem: Handles payroll tasks like processing payroll and generating payslips.
+Logger: Provides methods to log different types of messages.
+Main Function: Demonstrates creating objects of these classes and calling their methods.
